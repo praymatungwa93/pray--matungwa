@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pray Matungwa | Projects</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            color: #222;
+        }
+
+        header {
+            background: #111827;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .logo {
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        .intro {
+            background: linear-gradient(135deg, #0f172a, #1e3a8a);
+            color: white;
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        .intro h1 {
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+
+        .intro p {
+            font-size: 19px;
+            max-width: 700px;
+            margin: auto;
+            line-height: 1.7;
+        }
+
+        .projects {
+            max-width: 1100px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        .project-grid {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .project-card {
+            background: white;
+            width: 300px;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+
+        .project-card h2 {
+            color: #1e3a8a;
+            margin-bottom: 15px;
+        }
+
+        .project-card p {
+            line-height: 1.7;
+        }
+
+        .project-button {
+            display: inline-block;
+            margin-top: 20px;
+            background: #1e3a8a;
+            color: white;
+            padding: 10px 18px;
+            border-radius: 7px;
+            text-decoration: none;
+        }
+
+        .project-button:hover {
+            background: #38bdf8;
+            color: #111827;
+        }
+
+        footer {
+            background: #111827;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 700px) {
+
+            header {
+                justify-content: center;
+                text-align: center;
+            }
+
+            nav {
+                margin-top: 15px;
+            }
+
+            nav a {
+                margin: 5px;
+                display: inline-block;
+            }
+
+            .intro h1 {
+                font-size: 36px;
+            }
+
+            .project-card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">
+            Pray Matungwa
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+    </header>
+
+
+    <section class="intro">
+
+        <h1>My Projects</h1>
+
+        <p>
+            Explore my electronics projects, circuit designs,
+            experiments and practical technology work.
+        </p>
+
+    </section>
+
+
+    <section class="projects">
+
+        <div class="project-grid">
+
+            <div class="project-card">
+
+                <h2>Electronics Projects</h2>
+
+                <p>
+                    Practical electronics projects and experiments
+                    that I have worked on.
+                </p>
+
+                <a href="#" class="project-button">
+                    View Project
+                </a>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <h2>Circuit Designs</h2>
+
+                <p>
+                    Circuit designs, diagrams and explanations
+                    of different electronic systems.
+                </p>
+
+                <a href="#" class="project-button">
+                    View Project
+                </a>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <h2>Future Projects</h2>
+
+                <p>
+                    New technology projects and ideas that
+                    I plan to develop in the future.
+                </p>
+
+                <a href="#" class="project-button">
+                    Coming Soon
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+
+        <p>
+            © 2026 Pray Matungwa. All Rights Reserved.
+        </p>
+
+    </footer>
+
+</body>
+</html>
