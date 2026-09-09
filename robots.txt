@@ -1,1 +1,4 @@
+User-agent: *
+Allow: /
 
+Sitemap: https://praymatungwa93.github.io/pray--matungwa/sitemap.xml
